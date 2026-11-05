@@ -1,6 +1,6 @@
  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
 
-    /* === CSS Variables for Colors === */
+
     :root {
         --primary-blue: #0b1d36;
         --secondary-blue: #14345c;
@@ -12,7 +12,6 @@
         --border-color: #e5e7eb;
     }
 
-    /* === Base Styles === */
     * {
         box-sizing: border-box;
         margin: 0;
@@ -20,7 +19,7 @@
         font-family: 'Inter', sans-serif;
     }
     body {
-        background-color: var(--bg-color); /* Matches the image's outer background[span_2](start_span)[span_2](end_span) */
+        background-color: var(--bg-color);
         padding: 40px 20px;
     }
     ul { list-style: none; }
